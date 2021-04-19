@@ -1,0 +1,12 @@
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\bin\Debug\TP3_EM_Ex.exe.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\bin\Debug\TP3_EM_Ex.exe
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\bin\Debug\TP3_EM_Ex.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\obj\Debug\TP3_EM_Ex.csprojAssemblyReference.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\obj\Debug\TP3_EM_Ex.csproj.CoreCompileInputs.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\obj\Debug\TP3_EM_Ex.exe
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\obj\Debug\TP3_EM_Ex.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\bin\Debug\Logic.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\bin\Debug\Logic.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\obj\Debug\TP3_EM_Ex.csproj.CopyComplete
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\bin\Debug\Exceptions.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\TP3_EM_Ex\bin\Debug\Exceptions.pdb

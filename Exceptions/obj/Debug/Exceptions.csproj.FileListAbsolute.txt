@@ -1,0 +1,6 @@
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Exceptions\bin\Debug\Exceptions.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Exceptions\bin\Debug\Exceptions.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Exceptions\obj\Debug\Exceptions.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Exceptions\obj\Debug\Exceptions.pdb
