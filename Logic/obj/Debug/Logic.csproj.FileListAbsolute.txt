@@ -1,9 +1,0 @@
-C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Logic\bin\Debug\Logic.dll
-C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Logic\bin\Debug\Logic.pdb
-C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
-C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
-C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Logic\obj\Debug\Logic.dll
-C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Logic\obj\Debug\Logic.pdb
-C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Logic\bin\Debug\Exceptions.dll
-C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Logic\bin\Debug\Exceptions.pdb
-C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\1.POO\TP Extended Methods y Exceptions\TP3_EM_Ex\Logic\obj\Debug\Logic.csproj.CopyComplete
