@@ -83,17 +83,16 @@ namespace TP6_LinQ
 
         protected void btnPrimerONulo789_Click(object sender, EventArgs e)
         {
-            var query = (from prod in products
-                         select prod).FirstOrDefault(p => p.ProductID == 789);
+            var query2 = products.FirstOrDefault(p => p.ProductID == 789);
 
-            if (query == null)
+            if (query2 == null)
             {
                 Response.Write("No se encontró el product ID 789");
             }
             else
             {
                 List<Products> p = new List<Products>();
-                p.Add(query);
+                p.Add(query2);
                 gridProductList.DataSource = p;
                 gridProductList.DataBind();
             }
