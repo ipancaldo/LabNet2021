@@ -108,7 +108,8 @@
         </table>
 
 
-
+    <br />
+    <asp:Label Text="" ID="lblError" class="text-danger" runat="server" />
 
     <%-- Products GRID --%>
     <div class="row">

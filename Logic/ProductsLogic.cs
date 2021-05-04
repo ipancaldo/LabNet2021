@@ -10,16 +10,44 @@ namespace Logic
 {
     public class ProductsLogic : BaseLogic
     {
-        public List<Products> GetAll()
+        public List<Products> WithoutStock()
         {
-            return context.Products.ToList();
+            var products = context.Products.Where(p => p.UnitsInStock == 0).ToList();
+            return products;
         }
 
-        public Products GetData(int id)
+        public List<Products> WithStockPriceFrom3()
         {
-            Products product = new Products();
-            var seleccionProducto = context.Products.FirstOrDefault(r => r.ProductID == id);
-            return seleccionProducto;
+            var products = context.Products.Where(p => p.UnitsInStock > 0)
+                                            .Where(p => p.UnitPrice > 3).ToList();
+            return products;
+        }
+
+        public Products PrimeroONulo(int id)
+        {
+            var product = context.Products.FirstOrDefault(p => p.ProductID == id);
+            return product;
+        }
+
+        public List<Products> OrderByName()
+        {
+            var productosOrdenados = context.Products.OrderBy(p => p.ProductName).ToList();
+            return productosOrdenados;
+        }
+
+        public List<Products> OrderByStockDesc()
+        {
+            var productosPorStock = (from prod in context.Products
+                                    orderby prod.UnitsInStock descending
+                                    select prod).ToList();
+            return productosPorStock;
+        }
+
+        public Products GetFirstProduct()
+        {
+            var product = context.Products.First();
+            return product;
+
         }
     }
 }

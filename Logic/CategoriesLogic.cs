@@ -9,16 +9,21 @@ namespace Logic
 {
     public class CategoriesLogic : BaseLogic
     {
-        public List<Categories> GetAll()
+        public IEnumerable<dynamic> CategoriesByProduct()
         {
-            return context.Categories.ToList();
-        }
-
-        public Categories GetData(int id)
-        {
-            Categories categories = new Categories();
-            var seleccionarCategoria = context.Categories.FirstOrDefault(o => o.CategoryID == id);
-            return seleccionarCategoria;
+            var query = from cat in context.Categories
+                        join prod in context.Products
+                        on cat.CategoryID equals prod.CategoryID
+                        orderby cat.CategoryName
+                        select new
+                        {
+                            CategoryID = cat.CategoryID,
+                            CategoryName = cat.CategoryName,
+                            Description = cat.Description,
+                            ProductID = prod.ProductID,
+                            ProductName = prod.ProductName,
+                        };
+            return query;
         }
     }
 }
