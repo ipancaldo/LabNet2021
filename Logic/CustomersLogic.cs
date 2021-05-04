@@ -11,7 +11,7 @@ namespace Logic
     {
         public Customers GetCustomer(string id)
         {
-            var customer = context.Customers.FirstOrDefault(c => c.CustomerID == "CACTU");
+            var customer = context.Customers.FirstOrDefault(c => c.CustomerID == id);
             return customer;
         }
 

@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <table class="table">
+    <table class="table table-striped">
         <thead>
             <tr>
                 <th scope="col">#</th>
@@ -14,7 +14,7 @@
             <tr>
                 <td>1</td>
                 <td>
-                  <asp:Label Text="Objeto customer" runat="server" />
+                  <asp:Label Text="Objeto customer." runat="server" />
                 </td>
                 <td>
                     <asp:Button Text="Ejecutar" ID="btnObjetoCustomer" OnClick="btnObjetoCustomer_Click" runat="server" />
@@ -22,21 +22,21 @@
             </tr>
             <tr>
                 <td>2</td>
-                <td>Todos los productos sin stock</td>
+                <td>Todos los productos sin stock.</td>
                 <td>
                     <asp:Button Text="Ejecutar" ID="btnProductosSinStock" OnClick="btnProductosSinStock_Click" runat="server" />
                 </td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Productos que tienen stock y que cuestan más de 3 por unidad</td>
+                <td>Productos que tienen stock y que cuestan más de 3 por unidad.</td>
                 <td>
                     <asp:Button Text="Ejecutar" ID="btnStockMasTresUnidad" OnClick="btnStockMasTresUnidad_Click" runat="server" />
                 </td>
             </tr>            
             <tr>
                 <td>4</td>
-                <td>Customers de Washington</td>
+                <td>Customers de Washington.</td>
                 <td>
                     <asp:Button Text="Ejecutar" ID="btnCustomersWashington" OnClick="btnCustomersWashington_Click" runat="server" />
                 </td>

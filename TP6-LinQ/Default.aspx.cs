@@ -81,8 +81,10 @@ namespace TP6_LinQ
             Products prod = new Products();
 
             int id = 789;
-            prod = productsLogic.PrimeroONulo(id);
 
+            prod = productsLogic.PrimeroONulo(id);
+   
+            //No lo manejo con TRY CATCH porque ya sé que es NULL o trae un resultado.
             if (prod == null)
             {
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('No se encontró el ID 789')", true);
