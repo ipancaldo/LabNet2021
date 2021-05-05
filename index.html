@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>TP7 - HTML / CSS / JS</title>
+  <script src="js/jquery-3.6.0.min.js"></script>
+
+  <style>
+    #age{
+      width: 70px
+    }
+  </style>
+
+</head>
+<body>
+  <section class="formulario">
+    <h1>CONTACTO</h1>
+    <h5>Completa tus datos</h3>
+    <div class="contenedor">
+      <div class="formulario-campos">
+        <form style="width: 360px">
+          <fieldset>                  
+            <legend class="prueba">Información personal:</legend>
+            <div>
+              <label for="name">Nombre:</label>          
+              <input type="text" class="form-control" id="name" placeholder="Juan">
+              <div id="validacion1" class="error-validacion">Ingrese un nombre</div>
+              
+              <label for="lastname">Apellido:</label>          
+              <input type="text" id="lastname" class="form-control" placeholder="Perez">
+              <div id="validacion2" class="error-validacion">Ingrese un apellido</div>
+              
+              <label for="age">Edad:</label>          
+              <input type="number" id="age" min="0" class="form-control" placeholder="31">
+              <div id="validacion3" class="error-validacion">Ingrese una edad</div>
+              <div id="validacion3-edad" class="error-validacion">Ingrese un valor mayor a 0</div>              
+              
+              <div class="radiobutton">
+                <input type="radio" id="male" name="gender" value="male" checked="checked">
+                <label for="male">Masculino</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Femenino</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Otro</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="formulario-campos">
+            <fieldset>
+              <legend>Información adicional:</legend>
+              <div>
+                <label for="company">Empresa:</label>
+              
+                <input type="text" id="company" class="form-control" placeholder="CAPCOM">
+                <div id="validacion4" class="error-validacion-empresa">Ingrese una empresa</div>  
+              </div>        
+            </fieldset>
+            <input type="submit" id="enviar" class="btn-primary enviar">     
+            <button type="button" id="limpiarCampos">Limpiar</button>                   
+          </div>
+        </form>
+        
+      </div>
+    </div>
+    
+  </section>  
+  
+
+  <script src="js/script.js"></script>
+</body>
+</html>
