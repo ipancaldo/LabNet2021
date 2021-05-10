@@ -1,0 +1,56 @@
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\Logic.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\Logic.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\Logic.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\Data.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\Entities.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\EntityFramework.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\Data.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\Data.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\Entities.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\Entities.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\EntityFramework.xml
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\obj\Debug\Logic.csproj.CopyComplete
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\obj\Debug\Logic.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\4.EF\TP\TP5_EF\Logic\obj\Debug\Logic.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\Logic.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\Logic.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\Logic.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\Data.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\Entities.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\EntityFramework.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\Data.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\Data.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\Entities.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\Entities.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\EntityFramework.xml
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\obj\Debug\Logic.csproj.CopyComplete
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\obj\Debug\Logic.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\7.MVC\TP8\Logic\obj\Debug\Logic.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Logic.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Logic.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Logic.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Data.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Entities.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\EntityFramework.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Data.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Data.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Entities.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Entities.dll.config
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\EntityFramework.xml
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\obj\Debug\Logic.csproj.CopyComplete
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\obj\Debug\Logic.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\obj\Debug\Logic.pdb
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ignac\Desktop\Cursos\7. NEORIS LABs\8.WEB APi\TP9\Logic\bin\Debug\Newtonsoft.Json.xml
