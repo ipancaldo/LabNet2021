@@ -136,6 +136,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CatApiView.cs" />
     <Compile Include="Models\EmployeesView.cs" />
     <Compile Include="Models\ProductsView.cs" />
     <Compile Include="Models\PublicApiView.cs" />
@@ -181,6 +182,7 @@
     <Content Include="Views\Employees\Details.cshtml" />
     <Content Include="Views\Products\InsertEdit.cshtml" />
     <Content Include="Views\PublicApi\Index.cshtml" />
+    <Content Include="Views\PublicApi\Cat.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

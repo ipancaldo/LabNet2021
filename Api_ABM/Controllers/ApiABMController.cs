@@ -15,6 +15,9 @@ namespace Api_ABM.Controllers
     public class ApiABMController : ApiController
     {
         private ProductsLogic productsLogic = new ProductsLogic();
+
+        // GET => READ
+        [ResponseType(typeof(ProductsView))]
         public List<ProductsView> Get()
         {
             var products = productsLogic.GetAll();
@@ -28,7 +31,7 @@ namespace Api_ABM.Controllers
             return productsViewList;
         }
         
-        // GET
+        // GET => READ
         [ResponseType(typeof(ProductsView))]
         public IHttpActionResult GetProducts(int id)
         {
@@ -37,33 +40,44 @@ namespace Api_ABM.Controllers
             {
                 return NotFound();
             }
-            var productsViewList = new ProductsView
+            ProductsView productsView = new ProductsView
                                     {
                                         Id = products.ProductID,
                                         Name = products.ProductName,
                                         QuantityPerUnit = products.QuantityPerUnit,
                                         Price = (decimal)products.UnitPrice
                                     };
-            return Ok(productsViewList);
+            return Ok(productsView);
         }
 
-        // PUT
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutProducts(int id, Products products)
+        // PUT => REPLACE
+        [ResponseType(typeof(ProductsView))]
+        /* Pasamos una vista para que sea más fácil de editar el JSON y luego 
+        lo transformamos en un Products para se pueda actualizar */
+        public IHttpActionResult PutProducts(int id, ProductsView productsView) 
         {
+            Products product = new Products
+                                        {
+                                            ProductID = productsView.Id,
+                                            ProductName = productsView.Name,
+                                            QuantityPerUnit = productsView.QuantityPerUnit,
+                                            UnitPrice = productsView.Price,
+                                        };
+
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != products.ProductID)
+            if (id != product.ProductID)
             {
                 return BadRequest();
             }
 
             try
             {
-                productsLogic.Update(products);
+                productsLogic.Update(product);
+                return Ok(productsView);
             }
             catch (Exception ex)
             {
@@ -71,24 +85,34 @@ namespace Api_ABM.Controllers
             }
 
             return StatusCode(HttpStatusCode.NoContent);
-        }
+        }   
 
-        // POST
-        [ResponseType(typeof(Products))]
-        public IHttpActionResult PostProducts(Products products)
+        // POST => INSERT
+        [ResponseType(typeof(ProductsView))]
+        public IHttpActionResult PostProducts(ProductsView productsView)
         {
+            Products product = new Products
+                                        {
+                                            ProductName = productsView.Name,
+                                            QuantityPerUnit = productsView.QuantityPerUnit,
+                                            UnitPrice = productsView.Price,
+                                        };
+
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            productsLogic.Add(products);
+            productsLogic.Add(product);
 
-            return CreatedAtRoute("DefaultApi", new { id = products.ProductID }, products);
+            //Para retornar en la vista el ID correcto y no 0
+            productsView.Id = product.ProductID;
+
+            return CreatedAtRoute("DefaultApi", new { id = product.ProductID }, productsView);
         }
 
-        // DELETE
-        [ResponseType(typeof(Products))]
+        // DELETE => DELETE
+        [ResponseType(typeof(ProductsView))]
         public IHttpActionResult DeleteProducts(int id)
         {
             Products product = productsLogic.GetData(id);
@@ -99,7 +123,14 @@ namespace Api_ABM.Controllers
 
             productsLogic.Delete(id);
 
-            return Ok(product);
+            ProductsView productsView = new ProductsView
+                                            {
+                                                Id = product.ProductID,
+                                                Name = product.ProductName,
+                                                QuantityPerUnit = product.QuantityPerUnit,
+                                                Price = (decimal)product.UnitPrice
+                                            };
+            return Ok(productsView);
         }
     }
 }

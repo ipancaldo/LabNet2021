@@ -1,7 +1,9 @@
 ﻿@model MVC.Models.PublicApiView
+<link href="~/Content/styles.css" rel="stylesheet" />
 @{
     ViewBag.Title = "Api";
 }
-<div class="text-center">
-    <img src="@Model.message" alt="Perro" />
+
+<div class="text-center imgApiContainer">
+    <img src="@Model.message" class="imgApi" alt="Perro" />
 </div>

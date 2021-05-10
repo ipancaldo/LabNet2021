@@ -47,3 +47,13 @@
 .txtProduct {
     width: 250px;
 }
+
+/*Modifican API Pública DailyCat y DailyDog*/
+.imgApiContainer {
+    width: 400px;
+}
+
+.imgApi{
+    width: 100%;
+    height: auto;
+}
