@@ -7,6 +7,7 @@ namespace MVC.Models
 {
     public class PublicApiView
     {
-        public object content { get; set; }
+        public string message { get; set; }
+        public string status { get; set; }
     }
 }

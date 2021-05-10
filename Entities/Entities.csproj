@@ -48,12 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Casa.cs" />
-    <Compile Include="CasaList.cs" />
     <Compile Include="Customers.cs" />
     <Compile Include="Employees.cs" />
-    <Compile Include="PokemonType.cs" />
-    <Compile Include="PokemonTypeList.cs" />
     <Compile Include="Products.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

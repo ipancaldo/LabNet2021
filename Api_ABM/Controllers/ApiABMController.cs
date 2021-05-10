@@ -15,8 +15,6 @@ namespace Api_ABM.Controllers
     public class ApiABMController : ApiController
     {
         private ProductsLogic productsLogic = new ProductsLogic();
-        //private ProductsView productsView = new ProductsView();
-        //List<ProductsView> productsViewList = new List<ProductsView>();
         public List<ProductsView> Get()
         {
             var products = productsLogic.GetAll();
