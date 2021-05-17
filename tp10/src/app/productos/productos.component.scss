@@ -1,0 +1,13 @@
+.icon {
+    font-size: 14px;
+    transition-duration: 50ms;
+    transition-timing-function: linear;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+    transition-duration: 400ms;
+    /*opacity: 0.4;*/ 
+    transition-timing-function: ease-out;
+    filter: grayscale(80);
+}
