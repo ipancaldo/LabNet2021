@@ -18,7 +18,7 @@
             <th scope="row">{{product.Id}}</th>
             <td>{{product.Name}}</td>
             <td>{{product.QuantityPerUnit}}</td>
-            <td>${{product.Price}}</td>
+            <td>$ {{product.Price}}</td>
             <td>
               <!-- BOTÓN EDITAR -->
               <a class="nav-link" (click)="editarProducto(product.Id)">
@@ -28,7 +28,7 @@
             </td>
             <td>
               <!-- BOTÓN ELIMINAR -->
-              <a class="nav-link" (click)="eliminarProducto(product.Id)">
+              <a class="nav-link" (click)='confirmarEliminar("Advertencia", "Realmente desea eliminar el producto " + product.Name + "?", product.Id)'>
                 <i class="far fa-trash-alt icon text-danger"></i>
                 <span class="sr-only"></span>
               </a>
