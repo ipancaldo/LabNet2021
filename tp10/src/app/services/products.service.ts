@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { escapeIdentifier } from '@angular/compiler/src/output/abstract_emitter';
 import { environment } from 'src/environments/environment';
 import { Products } from '../models/products.models';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',

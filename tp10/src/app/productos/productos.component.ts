@@ -33,18 +33,21 @@ export class ProductosComponent implements OnInit {
   }
 
   eliminarProducto(id: number) {
-    this.productsService.deleteProduct(id).subscribe(
-      (res) => {
-        this.openSnackBar('Item eliminado', 'Cerrar');
-        this.ngOnInit();
-      },
-      (error) => {
-        this.openSnackBar(
-          'No se puede eliminar el producto seleccionado',
-          'Cerrar'
-        );
-      }
-    );
+    if (confirm('Realmente desea eliminar el producto?')) {
+      // if(this.confirmarEliminar("Advertencia", "Realmente desea eliminar el producto?", id)){
+      this.productsService.deleteProduct(id).subscribe(
+        (res) => {
+          this.openSnackBar('Item eliminado', 'Cerrar');
+          this.ngOnInit();
+        },
+        (error) => {
+          this.openSnackBar(
+            'No se puede eliminar el producto seleccionado',
+            'Cerrar'
+          );
+        }
+      );
+    }
   }
 
   btnAgregarProducto() {
@@ -54,28 +57,23 @@ export class ProductosComponent implements OnInit {
   openSnackBar(message, action) {
     let snackBarRef = this.snackBar.open(message, action);
 
-    snackBarRef.afterDismissed().subscribe(() => {
-    });
+    snackBarRef.afterDismissed().subscribe(() => {});
 
-    snackBarRef.onAction().subscribe(() => {
-    });
+    snackBarRef.onAction().subscribe(() => {});
   }
 
-  confirmarEliminar(title: string, cuerpo: string, id: number){
+  // No funciona. Elimina siempre por SI o NO
+  confirmarEliminar(title: string, cuerpo: string, id: number) {
     let mensaje = this.dialog.open(DialogMensajeComponent, {
-      data: { 
+      data: {
         titulo: title,
         mensaje: cuerpo,
         // Validación string de que viene de productos y muestra dos botones
-        bool: 'true'
+        bool: 'true',
       },
     });
-
     mensaje.afterClosed().subscribe((res) => {
-      if(res){
-        this.eliminarProducto(id);
-      }
+      if (res) this.eliminarProducto(id);
     });
   }
 }
-

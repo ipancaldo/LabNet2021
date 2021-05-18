@@ -1,3 +1,11 @@
+<section class="container-fluid banner mt-2 mb-3">
+  <div class="row justify-content-center">
+    <div class="col-6 pt-5 pb-5">
+      <h1 class="frase-texto">Productos</h1>
+    </div>
+  </div>
+</section>
+
 <div class="container">
   <!-- BOTÓN AGREGAR -->
   <button mat-raised-button color="primary" (click)="btnAgregarProducto()">Agregar producto</button>
@@ -28,7 +36,9 @@
             </td>
             <td>
               <!-- BOTÓN ELIMINAR -->
-              <a class="nav-link" (click)='confirmarEliminar("Advertencia", "Realmente desea eliminar el producto " + product.Name + "?", product.Id)'>
+              <a class="nav-link" (click)='eliminarProducto(product.Id)'>
+                <!-- NO FUNCIONA -->
+              <!-- <a class="nav-link" (click)='confirmarEliminar("Advertencia", "Realmente desea eliminar el producto " + product.Name + "?", product.Id)'> -->
                 <i class="far fa-trash-alt icon text-danger"></i>
                 <span class="sr-only"></span>
               </a>

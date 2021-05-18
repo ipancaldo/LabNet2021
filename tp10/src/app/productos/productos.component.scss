@@ -7,7 +7,16 @@
 .icon:hover {
     transform: scale(1.5);
     transition-duration: 400ms;
-    /*opacity: 0.4;*/ 
     transition-timing-function: ease-out;
     filter: grayscale(80);
+}
+
+.banner {
+    background-color: #21374d;
+    height: auto;
+  }
+
+.frase-texto {
+    color:white;
+    font-size: 45px;
 }
