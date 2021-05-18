@@ -9,13 +9,11 @@ import { ProductsService } from './services/products.service';
 export class AppComponent {
   title = 'tp10';
 
-  public products: Array<any> = []
+  public products: Array<any> = [];
 
-  constructor(
-    private productsService: ProductsService
-  ){
-    this.productsService.getProducts().subscribe((prod: any)=>{
+  constructor(private productsService: ProductsService) {
+    this.productsService.getProducts().subscribe((prod: any) => {
       this.products = prod;
-    })
+    });
   }
 }
